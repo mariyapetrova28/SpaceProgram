@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AU" xml:space="preserve">
+    <value>Authentication failed!</value>
+  </data>
+  <data name="Bye" xml:space="preserve">
+    <value>You can try again! See you next time, bye!</value>
+  </data>
+  <data name="Clouds" xml:space="preserve">
+    <value>Clouds</value>
+  </data>
+  <data name="ContinueInsert" xml:space="preserve">
+    <value>If you want to go through the insert details again enter Yes, otherwise just type anything else:</value>
+  </data>
+  <data name="Correct" xml:space="preserve">
+    <value>Check if your email and password are correct!</value>
+  </data>
+  <data name="createFile" xml:space="preserve">
+    <value>Can not create a file!</value>
+  </data>
+  <data name="createWR" xml:space="preserve">
+    <value>Can not create a weather report file!</value>
+  </data>
+  <data name="EmailFormat" xml:space="preserve">
+    <value>You entered a wrong email format!</value>
+  </data>
+  <data name="emailFormat2" xml:space="preserve">
+    <value>Email is not in the correct format!</value>
+  </data>
+  <data name="EmailNotSend" xml:space="preserve">
+    <value>We are sorry, but the email was not sent!</value>
+  </data>
+  <data name="EnterDetails" xml:space="preserve">
+    <value>We will ask you to enter some details so that we can send you a weather report file.</value>
+  </data>
+  <data name="EnterFilePath" xml:space="preserve">
+    <value>Please enter a valid file path:</value>
+  </data>
+  <data name="fileNotFound" xml:space="preserve">
+    <value>File is not found!</value>
+  </data>
+  <data name="fileWR" xml:space="preserve">
+    <value>This is the csv file with the WeatherReport.</value>
+  </data>
+  <data name="GoodLuck" xml:space="preserve">
+    <value>That is the information you needed! Good luck astronaut!</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hello, astronaut!</value>
+  </data>
+  <data name="Humidity" xml:space="preserve">
+    <value>Humidity</value>
+  </data>
+  <data name="Lightning" xml:space="preserve">
+    <value>Lightning</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="noData" xml:space="preserve">
+    <value>There is no data to send a email with!</value>
+  </data>
+  <data name="noRecords" xml:space="preserve">
+    <value>There are no records!</value>
+  </data>
+  <data name="PasswordEmail" xml:space="preserve">
+    <value>Please enter the password for the email you gave above:</value>
+  </data>
+  <data name="Precipitation" xml:space="preserve">
+    <value>Precipitation</value>
+  </data>
+  <data name="recordsList" xml:space="preserve">
+    <value>There are no records in the list!</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>Please enter a sender email(note that it should be a gmail account):</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Sending email...</value>
+  </data>
+  <data name="SendToEmail" xml:space="preserve">
+    <value>Please enter the email address to which we will send the WeatherReport file:</value>
+  </data>
+  <data name="Sent" xml:space="preserve">
+    <value>Email sent!</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>So let's start!</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>In this file you will see for every parameter aggregate data and the data of the most appropriate launch day.</value>
+  </data>
+  <data name="Temp" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="twoFactor" xml:space="preserve">
+    <value>You have to make a two-factor verification to your gmail account and create and use a app password!</value>
+  </data>
+  <data name="Wind" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="wr" xml:space="preserve">
+    <value>Weather Report</value>
+  </data>
+  <data name="WrongFilePath" xml:space="preserve">
+    <value>You entered a wrong file path!</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>
